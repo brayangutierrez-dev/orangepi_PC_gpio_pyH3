@@ -1,6 +1,8 @@
-from distutils.core import setup
-from distutils.core import Extension
-from distutils.command.build_ext import build_ext as _build_ext
+#from distutils.core import setup
+#from distutils.core import Extension
+#from distutils.command.build_ext import build_ext as _build_ext
+from setuptools import setup, Extension
+from setuptools.command.build_ext import build_ext as _build_ext
 
 import sys
 
